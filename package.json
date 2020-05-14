@@ -3,5 +3,11 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.19.0"
+  },
+  "scripts": {
+    "build": "lerna exec yarn build --parallel",
+    "lint": "lerna exec yarn lint --parallel",
+    "start": "lerna exec yarn start",
+    "test": "lerna exec yarn test --parallel"
   }
 }
