@@ -7,7 +7,7 @@
   "scripts": {
     "build": "lerna exec yarn build --parallel",
     "lint": "lerna exec yarn lint --parallel",
-    "start": "lerna exec yarn start",
+    "start": "lerna exec yarn start --parallel",
     "test": "lerna exec yarn test --parallel"
   }
 }
